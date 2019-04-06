@@ -1,7 +1,7 @@
 {
-  "name": "pet-shop",
+  "name": "BVC",
   "version": "1.0.0",
-  "description": "",
+  "description": "Creating a transparent voting ballot on blockchain",
   "main": "truffle.js",
   "directories": {
     "test": "test"
@@ -14,5 +14,8 @@
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "metamascara": "^2.2.1"
   }
 }
