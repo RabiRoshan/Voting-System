@@ -32,4 +32,21 @@
   ![Alt text](/src/india.jpg?raw=true "Title")
   
   
+  ## Steps to Cast Vote
+  
+ ### Steps:
+    
+    1) Enter UID number to login. (Default 1111111111 or 2222222222)
+    
+    ![Alt text](/img/sc.jpg?raw=true "Title")
+    
+    2) Select candidate of choice and vote.
+    
+    ![Alt text](/img/s.png?raw=true "Title")
+    
+    3) Goto url http://localhost:3000/results.html to view results.
+    
+    ![Alt text](/img/scree.png?raw=true "Title")
+
+  
     
