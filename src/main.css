@@ -59,7 +59,7 @@ body {
 .image-container {
   background-image: url("./india.jpg");
   min-width: 100%;
-  min-height: 50%;
+  min-height: 13vw;
   opacity: 0.5;
 }
 
@@ -101,4 +101,35 @@ body {
 
 .showError {
   margin-top: 1vw;
+}
+
+
+.results-container {
+  height: unset;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(216, 216, 216);
+}
+
+.results-container table,
+.results-container th,
+.results-container td {
+  border: 5px solid #223d4a;
+  background-color: #112b38;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+.results-container th,
+.results-container td {
+  padding: 1vw;
+}
+
+.results-container table {
+  margin-bottom: 1vw;
+}
+
+.results-container h1 {
+  font-size: 3vw;
+  text-decoration: underline;
 }
