@@ -29,9 +29,7 @@
     npm run dev
     ```
     
+  ![Alt text](/src/india.jpg?raw=true "Title")
+  
+  
     
-    Steps:
-    
-    1) Enter UID number to login. (Default 1111111111 or 2222222222)
-    2) Select candidate of choice and vote.
-    3) Goto url http://localhost:3000/results.html to view results.
