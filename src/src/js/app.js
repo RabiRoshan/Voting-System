@@ -45,6 +45,7 @@ App = {
         fromBlock: 0,
         toBlock: 'latest'
       }).watch(function(error, event) {
+
         console.log("event triggered", event)
         // Reload when a new vote is recorded
         App.render();
@@ -65,6 +66,8 @@ App = {
       if (err === null) {
         App.account = account;
         $("#accountAddress").html("Your Account: " + account);
+        $('h3').hide();
+        $('p').hide();
       }
     });
 
@@ -99,6 +102,8 @@ App = {
           // Render candidate ballot option
           var candidateOption = "<option value='" + id + "' >" + name + "</ option>"
           candidatesSelect.append(candidateOption);
+        $('h3').hide();
+        $('p').hide();
         })
         });
       
@@ -107,6 +112,8 @@ App = {
       // Do not allow a user to vote
       if(hasVoted) {
         $('form').hide();
+        $('p').show();
+        $('h3').show();
       }
       loader.hide();
       content.show();
@@ -123,6 +130,8 @@ App = {
       // Wait for votes to update
       $("#content").hide();
       $("#loader").show();
+      $('h3').hide();
+      
     }).catch(function(err) {
       console.error(err);
     });
