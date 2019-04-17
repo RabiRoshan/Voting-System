@@ -6,24 +6,13 @@
     ```javascript
     npm install -g truffle
     ```
-
-2. Download the box. This also takes care of installing the necessary dependencies.
-    ```javascript
-    truffle unbox pet-shop
-    ```
-
-3. Run the development console.
-    ```javascript
-    truffle develop
-    ```
-
-4. Compile and migrate the smart contracts. Note inside the development console we don't preface commands with `truffle`.
+2. Compile and migrate the smart contracts. Note inside the development console we don't preface commands with `truffle`.
     ```javascript
     compile
     migrate
     ```
 
-5. Run the `liteserver` development server (outside the development console) for front-end hot reloading. Smart contract changes must be manually recompiled and migrated.
+3. Run the `liteserver` development server (outside the development console) for front-end hot reloading. Smart contract changes must be manually recompiled and migrated.
     ```javascript
     // Serves the front-end on http://localhost:3000
     npm run dev
@@ -38,7 +27,7 @@
     
     1) Enter UID number to login. (Default 1111111111 or 2222222222)
     
-    
+        ![Screenshot1](https://github.com/siddharth2798/Voting-System/blob/master/img/s.PNG)   
     
     2) Select candidate of choice and vote.
     
