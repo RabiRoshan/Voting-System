@@ -18,7 +18,7 @@
     npm run dev
     ```
     
-  ![Alt text](/src/india.jpg?raw=true "Title")
+  ![Alt text](/src/india.jpg?raw=true "Logo")
   
   
   ## Steps to Cast Vote
@@ -26,16 +26,16 @@
  ### Steps:
     
     1) Enter UID number to login. (Default 1111111111 or 2222222222)
-    
-        ![Screenshot1](https://github.com/siddharth2798/Voting-System/blob/master/img/s.PNG)   
+   
+   ![Screenshot 1](/img/sc.PNG?raw=true "Page 1")   
     
     2) Select candidate of choice and vote.
-    
+   ![Screenshot 1](/img/s.PNG?raw=true "Page 2")    
    
     
     3) Goto url http://localhost:3000/results.html to view results.
     
-   
+   ![Screenshot 1](/img/scree.png?raw=true "Page 3")   
 
   
     
