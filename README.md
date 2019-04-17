@@ -6,10 +6,9 @@
     ```javascript
     npm install -g truffle
     ```
-2. Compile and migrate the smart contracts. Note inside the development console we don't preface commands with `truffle`.
+2. Migrate the smart contracts.
     ```javascript
-    compile
-    migrate
+    truffle migrate --reset
     ```
 
 3. Run the `liteserver` development server (outside the development console) for front-end hot reloading. Smart contract changes must be manually recompiled and migrated.
